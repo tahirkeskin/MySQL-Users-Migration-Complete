@@ -12,6 +12,7 @@
 - All users privileges migration.
 
 ## Things to Remember
+- Remember to test before use.
 - Make sure to take a backup before starting the processes.
 - Enter the old and new server information correctly and completely.
 - Make sure old and new servers are accessible. (Port check, remote connection check etc.)
@@ -45,6 +46,7 @@ MIT
 - Tüm kullanıcı yetkilerini taşır.
 
 ## Unutmaman Gerekenler
+- Kullanmadan önce test etmeyi unutmayın.
 - İşlemlere başlamadan önce mutlaka yedek alın.
 - Eski ve yeni sunucu bilgilerini eksiksiz girin.
 - Eski ve yeni sunucuların erişilebilir olduğundan emin olun. (Port kontrolü, uzak bağlantı kontrolu vb.)
