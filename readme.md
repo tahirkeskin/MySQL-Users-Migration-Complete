@@ -5,7 +5,7 @@
 ----
 **For English**
 # MySQL Users Migration
-## Migrate all users and all user privileges.
+## Migrate all MySQL users and all MySQL user privileges.
 ## Features
 - All users migration.
 - Supported ALL MySQL Versions.
@@ -37,7 +37,7 @@ MIT
 ----
 **For Turkish**
 # MySQL Kullanıcıların Taşınması
-## Tüm kullanıcıları ve tüm kullanıcı yetkilerini kolayca taşıyın.
+## Tüm MySQL kullanıcılarını ve tüm MySQL kullanıcı yetkilerini kolayca taşıyın.
 ## Özellikler
 - Tüm kullanıcıları taşır.
 - Tüm MySQL sürümlerini destekler.
