@@ -27,6 +27,10 @@
 - Clone this repository.
 - ```sh start.sh ```
 
+## Support
+- If you encounter an error, you can open an issue.
+- If you want to make suggestions, you can open an issue.
+
 ## License
 MIT
 
@@ -54,6 +58,10 @@ MIT
 ## Kurulum ve Kullanım
 - Depoyu bilgisayarınıza klonlayın.
 - ```sh start.sh ```
+
+## Destek
+- Hata ile karşılaşırsanız issue açabilirsiniz.
+- Öneride bulunmak isterseniz issue açabilirsiniz.
 
 ## Lisans
 MIT
