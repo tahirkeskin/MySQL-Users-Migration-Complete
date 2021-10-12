@@ -16,7 +16,7 @@ read -p "Is the informations correct? (y / n): " approval
 if [ "$approval" = "e" ]; then
     echo 'APPROVED.\n'
     # Stage 1
-    mysql -h $old_ip -u $old_user -p"${old_pw}" --skip-column-names -A -e"SELECT CONCAT('SHOW GRANTS FOR ''',user,'''@''',host,''';') FROM mysql.user WHERE user<>'' and user NOT IN ('mysql.session','mysql.sys','debian-sys-maint','root');" | mysql -h $old_ip -u $old_user -p"${old_pw}" --skip-column-names -A | sed 's/$/;/g' > user_grants.sql
+    mysql -h $old_ip -u $old_user -p"${old_pw}" --skip-column-names -A -e"SELECT CONCAT('SHOW GRANTS FOR ''',user,'''@''',host,''';') FROM mysql.user WHERE user<>'' and user NOT IN ('mysql.session','mysql.sys','debian-sys-maint','root')" | mysql -h $old_ip -u $old_user -p"${old_pw}" --skip-column-names -A | sed 's/$/;/g' > user_grants.sql
 
     # Stage 2
     echo 'Check the version information for the old server.\n'
