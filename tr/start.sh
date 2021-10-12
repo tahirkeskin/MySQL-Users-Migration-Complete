@@ -7,7 +7,7 @@ read -p "Eski Sunucu User: " old_user
 read -p "Eski Sunucu Password: " old_pw
 
 # Show Old Details
-echo "OLD IP: ${old_ip} - OLD User: ${old_user} - OLD Pw: ${old_pw}"
+echo "Eski IP: ${old_ip} - Eski Kullanıcı: ${old_user} - Eski Parola: ${old_pw}"
 
 # Old Approval
 read -p "Bilgiler Dogru Mu? (e / h): " approval
@@ -50,7 +50,7 @@ if [ "$approval" = "e" ]; then
     read -p "Yeni Sunucu Password: " new_pw
 
     # Show New Details
-    echo "NEW IP: ${new_ip} - NEW User: ${new_user} - NEW Pw: ${new_pw}"
+    echo "Yeni IP: ${new_ip} - Yeni Kullanıcı: ${new_user} - Yeni Parola: ${new_pw}"
 
     # New Approval
     read -p "Bilgiler Dogru Mu? (e / h): " new_approval
