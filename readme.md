@@ -1,4 +1,8 @@
 ----
+- TR: Diliniz Türkçe ise tr klasöründeki dosyayı, diliniz İngilizce ise en klasöründeki dosyayı kullanabilirsiniz.
+- EN: If your language is Turkish, you can use the file in the tr folder, if your language is English, you can use the file in the en folder.
+
+----
 **For English**
 # MySQL Users Migration
 ## Migrate all users and all user privileges.
@@ -14,6 +18,10 @@
 
 ## Tech
 - Bash Script
+
+## Locales
+- EN (English)
+- TR (Türkçe)
 
 ## Installation and Using
 - Clone this repository.
@@ -38,6 +46,10 @@ MIT
 
 ## Teknoloji
 - Bash Script
+
+## Locales
+- TR (Türkçe)
+- EN (English)
 
 ## Kurulum ve Kullanım
 - Depoyu bilgisayarınıza klonlayın.
