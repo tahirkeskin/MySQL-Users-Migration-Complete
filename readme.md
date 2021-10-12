@@ -15,6 +15,7 @@
 - Make sure to take a backup before starting the processes.
 - Enter the old and new server information correctly and completely.
 - Make sure old and new servers are accessible. (Port check, remote connection check etc.)
+- Migrates all users except "mysql.session", "mysql.sys", "debian-sys-maint" and "root" users.
 
 ## Tech
 - Bash Script
@@ -47,6 +48,7 @@ MIT
 - İşlemlere başlamadan önce mutlaka yedek alın.
 - Eski ve yeni sunucu bilgilerini eksiksiz girin.
 - Eski ve yeni sunucuların erişilebilir olduğundan emin olun. (Port kontrolü, uzak bağlantı kontrolu vb.)
+- "mysql.session", "mysql.sys", "debian-sys-maint" ve "root" kullanıcılarını haricindeki tüm kullanıcıları taşır.
 
 ## Teknoloji
 - Bash Script
