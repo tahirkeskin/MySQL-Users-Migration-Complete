@@ -48,7 +48,7 @@ MIT
 - İşlemlere başlamadan önce mutlaka yedek alın.
 - Eski ve yeni sunucu bilgilerini eksiksiz girin.
 - Eski ve yeni sunucuların erişilebilir olduğundan emin olun. (Port kontrolü, uzak bağlantı kontrolu vb.)
-- "mysql.session", "mysql.sys", "debian-sys-maint" ve "root" kullanıcılarını haricindeki tüm kullanıcıları taşır.
+- "mysql.session", "mysql.sys", "debian-sys-maint" ve "root" kullanıcıları haricindeki tüm kullanıcıları taşır.
 
 ## Teknoloji
 - Bash Script
